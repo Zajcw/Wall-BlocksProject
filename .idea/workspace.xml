@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/BlockImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/CompositeBlockImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/CompositeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BlockImplementationTest.java" afterDir="false" />
+    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information).">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompositeBlockImplementationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,9 +107,38 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CompositeBlockImplementationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CompositeBlockImplementationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.horus.zadanie.Main" />
+      <item itemvalue="Gradle.BlockImplementationTest" />
+      <item itemvalue="Gradle.CompositeBlockImplementationTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BlockImplementationTest" />
+        <item itemvalue="Gradle.CompositeBlockImplementationTest" />
         <item itemvalue="Application.horus.zadanie.Main" />
       </list>
     </recent_temporary>
@@ -129,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652171711591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information).">
+      <created>1652181898601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652181898601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
