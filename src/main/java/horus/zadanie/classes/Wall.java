@@ -54,7 +54,8 @@ public class Wall implements Structure {
     @Override
     public String toString() {
         return "Wall{" +
-                "blocks=" + blocks +
+                "blocks= " + blocks +
+                ", amount of blocks= " + this.count() +
                 '}';
     }
 

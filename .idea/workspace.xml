@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/BlockImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/BlockImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/CompositeBlockImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/CompositeBlockImplementation.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Task done." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -182,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652184797384</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task done.">
+      <created>1652185993069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652185993069</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +203,8 @@
     <MESSAGE value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
     <MESSAGE value="Added tests for CompositeBlockImplementation.java and BlockImplementation.java" />
     <MESSAGE value="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of." />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of." />
+    <MESSAGE value="Task done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
