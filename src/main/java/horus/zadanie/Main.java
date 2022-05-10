@@ -46,17 +46,27 @@ public class Main {
         //Create wall from the block list
         //and print out the blocks by certain material
         //i.e. "steel".
-        Wall wall = new Wall(blockList);
-        System.out.println(wall.findBlocksByMaterial("wood"));
+        Wall wall1 = new Wall(blockList);
+        System.out.println("Wall1 object:\n" + wall1);
+        System.out.println(wall1.findBlocksByMaterial("steel"));
 
         //Because method findBlockByColor returns one object
         //i.e. Optional<Block> it will find first instance that
         //fits the color criteria and won't search for more.
         //That's why I put relevant comment in the Wall class
-        //with my opinion on this
-        System.out.println(wall.findBlockByColor("red"));
+        //with my opinion on this.
+        System.out.println(wall1.findBlockByColor("red"));
 
         //Print out information about blocks that make the  wall
-        System.out.println(wall.getBlocks());
+        System.out.println(wall1.getBlocks());
+
+        Wall wall2 = new Wall(compositeBlock.getBlocks());
+        System.out.println("Wall2 object:\n" + wall2);
+
+        System.out.println(wall2.findBlocksByMaterial("wood"));
+
+        System.out.println(wall2.findBlockByColor("red"));
+
+        System.out.println(wall2.getBlocks());
     }
 }

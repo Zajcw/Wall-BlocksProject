@@ -9,19 +9,19 @@ import java.util.Objects;
 
 public class CompositeBlockImplementation implements CompositeBlock {
 
-    private List<Block> blocks;
+    private final List<Block> blocks;
 
     public CompositeBlockImplementation() {
         super();
-        setBlocks(Collections.emptyList());
+        this.blocks = Collections.emptyList();
     }
 
     public CompositeBlockImplementation(List<Block> blocks) {
         super();
         if(Objects.isNull(blocks))
-            setBlocks(Collections.emptyList());
+            this.blocks = Collections.emptyList();
         else
-            setBlocks(blocks);
+            this.blocks = blocks;
     }
 
     @Override
@@ -36,10 +36,6 @@ public class CompositeBlockImplementation implements CompositeBlock {
         return blocks.stream()
                 .map(Block::getMaterial)
                 .reduce((material1, material2) -> material1 + ", " + material2).get();
-    }
-
-    public void setBlocks(List<Block> blocks) {
-        this.blocks = blocks;
     }
 
     @Override

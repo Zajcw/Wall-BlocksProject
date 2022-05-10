@@ -4,25 +4,17 @@ import horus.zadanie.interfaces.Block;
 
 public class BlockImplementation implements Block {
 
-    private String color;
-    private String material;
+    private final String color;
+    private final String material;
 
-    public BlockImplementation(){
+    public BlockImplementation() {
         super();
-        setColor("");
-        setMaterial("");
+        this.color = "";
+        this.material = "";
     }
 
     public BlockImplementation(String color, String material) {
-        setColor(color);
-        setMaterial(material);
-    }
-
-    public void setColor(String color) {
         this.color = color;
-    }
-
-    public void setMaterial(String material) {
         this.material = material;
     }
 

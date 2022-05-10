@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Added tests for CompositeBlockImplementation.java and BlockImplementation.java">
+    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Structure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/BlockImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/BlockImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/CompositeBlockImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/CompositeBlockImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652183759699</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of.">
+      <created>1652184797384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652184797384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +200,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
     <MESSAGE value="Added tests for CompositeBlockImplementation.java and BlockImplementation.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests for CompositeBlockImplementation.java and BlockImplementation.java" />
+    <MESSAGE value="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of." />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure.java now extends CompositeBlock.java, so Wall.java now implements the Block.java and CompositeBlock.java methods. We can now check what materials/colors/blocks the wall is made of." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
