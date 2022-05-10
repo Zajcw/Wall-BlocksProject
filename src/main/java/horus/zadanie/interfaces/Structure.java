@@ -3,7 +3,7 @@ package horus.zadanie.interfaces;
 import java.util.List;
 import java.util.Optional;
 
-public interface Structure{
+public interface Structure extends CompositeBlock{
     //Zwraca dowolny element o podanym kolorze
     Optional findBlockByColor(String color);
 

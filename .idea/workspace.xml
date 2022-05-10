@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information).">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompositeBlockImplementationTest.java" afterDir="false" />
+    <list default="true" id="8c441f16-d3ed-4b91-9768-999561ad1e3c" name="Changes" comment="Added tests for CompositeBlockImplementation.java and BlockImplementation.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/classes/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/horus/zadanie/interfaces/Structure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BlockImplementationTest">
+  <component name="RunManager" selected="Application.horus.zadanie.Main">
     <configuration name="horus.zadanie.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="horus.zadanie.Main" />
       <module name="zadanie1.main" />
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652181898601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added tests for CompositeBlockImplementation.java and BlockImplementation.java">
+      <created>1652183759699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652183759699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Block and CompositeBlock. Started adding tests. Added few comments in main class for code used. Added a comment about Wall.findBlockByColor method (see Wall.java for more information)." />
+    <MESSAGE value="Added tests for CompositeBlockImplementation.java and BlockImplementation.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests for CompositeBlockImplementation.java and BlockImplementation.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

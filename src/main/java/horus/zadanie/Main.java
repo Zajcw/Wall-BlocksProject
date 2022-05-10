@@ -55,5 +55,8 @@ public class Main {
         //That's why I put relevant comment in the Wall class
         //with my opinion on this
         System.out.println(wall.findBlockByColor("red"));
+
+        //Print out information about blocks that make the  wall
+        System.out.println(wall.getBlocks());
     }
 }
